@@ -388,6 +388,7 @@ font-weight: 300;
     align-items: center;
     margin: 1rem 0;
     text-decoration: none;
+    color: var(--cor_texto_preto)
 }
 .educacao,.educacao_online,.comunidade{
     display: block;
