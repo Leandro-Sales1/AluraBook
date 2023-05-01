@@ -1,5 +1,5 @@
 # AluraBooks's  project.
-##Tecnologies used:
+## Tecnologies used:
 * HTML
 * CSS
 * Swiper.js
