@@ -13,8 +13,8 @@
         <section class="menu_espaco">
             <div class="elementos_menu esq">
                 <input type="checkbox" id="menu" class="botao_menu">
-                <label for="menu">
-                    <span class="botao_menu"><img src="./img/Menu.svg" alt="botão menu">
+                <label for="menu" class="menu_rotulo">
+                    <span class="botao_menu"><img src="./img/Menu.svg" alt="menu"></span>
                 </label>
                 <ul class="lista_menu">
                     <h2 class="lista_titulo">Categorias</h2>
@@ -30,7 +30,7 @@
             </div>
             <ul class="opcoes">
                 <input type='checkbox' class="opcoes_menu" id="opcoes_botão">
-                <label for="opcoes_botão">
+                <label for="opcoes_botão" class="opcoes_rotulo">
                     <li class="opcoes_item">CATEGORIAS</li>
                 </label>
                 <ul class="lista_menu">
@@ -205,6 +205,9 @@
                 
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+            delay: 3500,
             },
             });
     </script>
