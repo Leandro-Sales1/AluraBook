@@ -210,7 +210,7 @@ body{
 .e-mail{
     margin-top: 1.5rem;
     margin-bottom: 1.875rem;
-    padding: 0.625rem 2.5rem;
+    padding: 0.625rem 1.5rem;
     align-items: center;
     border-radius: 24px;
     width: 85%;
@@ -222,7 +222,7 @@ body{
     font-size: 16px;
     background-image: url(/img/e-mail.svg);
     background-repeat: no-repeat;
-    background-position: 0.625rem 0.625rem;
+    background-position: 0 4px;
     padding: 0 30px;
 }
 .grupo_alura{
@@ -392,6 +392,20 @@ font-weight: 300;
 }
 .educacao,.educacao_online,.comunidade{
     display: block;
+}
+.opcoes_menu:checked ~ .opcoes_rotulo > .opcoes_item{
+    background: var(--cor_destaque_degrade);
+    color: var(--cor_principal)
+}
+.opcoes_item{
+    padding: 2rem 1rem;
+}
+.lista_elemento:hover{
+    background: var(--cor_destaque_degrade);
+}
+.lista_elemento:hover > .lista_elemento_link{
+    -webkit-text-fill-color: var(--cor_principal);
+    text-decoration: none;
 }
 }
 
