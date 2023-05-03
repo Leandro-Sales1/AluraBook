@@ -257,12 +257,29 @@ font-weight: 300;
     font-size: 14px;
     font-weight: 700;
 }
-
-
-
+.menu_rotulo{
+    margin: -0.5rem;
+    padding: 1rem;
+}
+.botao_menu_hamburguer{
+    width: 48px;
+    height: 48px;
+    background-image: url(/img/Menu.svg);
+    background-repeat: no-repeat;
+    display: block;
+}
+.botao_menu:checked ~ .menu_rotulo > .botao_menu_hamburguer{
+    background-image: url(/img/Menu_Aberto.svg);
+    
+    
+}
+.botao_menu:checked ~ .menu_rotulo{
+    background: var(--cor_destaque_degrade);
+    
+   }
 
 @media screen and (min-width: 1024px){  
-.botao_menu,.img_favoritos,.linha_vertical{
+.botao_menu_hamburguer,.img_favoritos,.linha_vertical{
     display: none;
 }
 .cabecalho_titulo{
