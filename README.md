@@ -3,7 +3,7 @@
 * HTML
 * CSS
 * Swiper.js
-* Total focus on responsiveness, with a mobile-frist design.
+* Total focus on responsiveness, with a mobile-first design.
 
 https://alura-book-leandro-sales1.vercel.app/
 
